@@ -50,7 +50,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    const key = "";
+    const key = "MaKqdc/dF+xY+OvUVzZhSQ==gxGnCMwySRk2XHfE";
     const fetchData = async () => {
       try {
         const response = await axios.get(
