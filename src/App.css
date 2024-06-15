@@ -1,0 +1,18 @@
+body {
+    background-color: #000000e2;
+    padding: 0;
+}
+.container {
+    color: white;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.074);
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 0.7rem;
+    transition: all ease 0.3s;
+}
