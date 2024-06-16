@@ -19,8 +19,6 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-        check-latest: true  # Ensures using the latest version
     - run: npm ci
     - run: npm run build
     - run: npm test
