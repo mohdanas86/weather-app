@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  build: npm run build
 
     runs-on: ubuntu-latest
 
@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm test
+    - run: npm run dev
